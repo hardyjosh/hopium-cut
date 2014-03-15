@@ -149,3 +149,10 @@ color:#000;
     text-align:center;
     padding-top:15px;
 }
+
+@media all and (max-width: 500px) {
+    
+    .contact (
+        width:100%;
+    
+}

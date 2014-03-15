@@ -17,4 +17,4 @@ var delayAmt = 500;
     $('.contact').delay(initialDelay+delayAmt+delayAmt).fadeIn(delayAmt);
     
     
-});
+}); 
