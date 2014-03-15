@@ -152,7 +152,21 @@ color:#000;
 
 @media all and (max-width: 500px) {
     
-    .contact (
+    .contact {
         width:100%;
+        font-size:0.8em;
+        line-height:1.8em;
+    }
     
+    #hopium-text {
+        width:80%;
+    }
+    
+    .main {
+        margin-top:20px
+    }
+    
+    .drawings {
+        max-height:450px;
+    }
 }
