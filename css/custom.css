@@ -3,16 +3,11 @@ body {
 	font-family:'Courier New', 'Courier', sans serif;
 }
 
-.demo-drawings body {
-	background: #F17370;
-	color: #fff;
-}
-
 .main {
-	margin:70px auto;
+	margin: auto;
 	display:block;
 	position:relative;
-	width:550px;
+	width:80%;
 
 }
 
