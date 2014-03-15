@@ -46,7 +46,7 @@
 		this.el = el;
 		this.image = this.el.previousElementSibling;
 		this.current_frame = 0;
-		this.total_frames = 60;
+		this.total_frames = 70;
 		this.path = new Array();
 		this.length = new Array();
 		this.handle = 0;

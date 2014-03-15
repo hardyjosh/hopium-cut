@@ -3,25 +3,23 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>•◊Hopium◊•</title>
+    <title>•◊HOPIUM◊•</title>
     <meta name="description" content="•◊Hopium◊•" />
     <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bigvideo.css">
     <link rel="stylesheet" href="css/custom.css">
-    <link rel="stylesheet" type="text/css" href="css/component.css" />
+
 </head>
 <body>
     <div id="main" class="main">
 
-
-<style type="text/css">
-
-</style>
+<img id="hopium-text" class="show-on-load" src="img/logo.png" />
 <figure>
 					<div class="drawings mac">
-						<img class="illustration" src="img/hopium.jpg" alt="" />
-						<svg class="line-drawing" id="mac" width="100%" height="600" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1417 886">
+						<img class="illustration" src="img/hopium.png" alt="" />
+						<svg class="line-drawing" id="mac" width="100%" height="450" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" viewBox="360 0 700 886">
 							<path d="M643.179,481c25.333-2,56.821-14.031,80.154-38.333
 									"/>
 								<path d="M639.333,471c25.333-2,57.447-14.875,80-39.333"/>
@@ -169,7 +167,16 @@
 						</svg>
 					</div>
 					
-				</figure>       
+				</figure>  
+    <div class='buttons'>
+        <a id='youtube' class='fadein-on-load youtube button' href='http://goo.gl/FPjAqK '><span class='hopium-icon'>y </span>Watch</a>
+        
+        <a class='fadein-on-load soundcloud button' href='http://goo.gl/4Me6De'><span class='hopium-icon'>s </span>Listen</a>
+    </div>
+<div class='fadein-on-load contact'></br>
+MGMT: <a href='mailto:mark@outpostmanagement.com.au'>mark@outpostmanagement.com.au</a></br>
+PR: <a href='mailto:zac@viceroyalty.com.au'>zac@viceroyalty.com.au</a>
+</div>
 
     </div>
 
@@ -182,16 +189,22 @@
     <script src="http://vjs.zencdn.net/4.0/video.js"></script>
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     <script src="js/bigvideo.js"></script>
+    <script src="js/main.js"></script>
     
     <script>
 	    $(function() {
 var BV = new $.BigVideo();
-BV.init();
+BV.init();          
+            
 if (Modernizr.touch) {
     BV.show('img/loop.gif');
 } else {
-   BV.show('.mp4',{ambient:true});
-}	  
+   BV.show('loop.mp4',{ambient:true});
+    
+}	
+         
+
+            
   });
     </script>
 </body>
